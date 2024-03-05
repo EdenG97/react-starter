@@ -16,7 +16,7 @@ function ContentOnlineList() {
               src={item.image}
               alt={item.name}
               className="h-10 w-10 rounded-full bg-yellow-400 shadow-lg"
-            ></img>
+            />
             <p className="font-bold text-[0.6rem]">{item.name}</p>
             <p className="text-[0.6rem] leading-none">{item.tag}</p>
           </div>

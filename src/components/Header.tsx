@@ -4,13 +4,11 @@ import { MdOutlineKeyboardBackspace } from "react-icons/md";
 import { Screen } from "./enum";
 
 interface HeaderProps {
-  activeScreen: Screen;
+  homeScreen: boolean;
   dispatchChangeScreen: Dispatch<SetStateAction<Screen>>;
 }
 
-function Header({ activeScreen, dispatchChangeScreen }: HeaderProps) {
-  const homeScreen = activeScreen === Screen.HOME;
-
+function Header({ homeScreen, dispatchChangeScreen }: HeaderProps) {
   return (
     <header
       className={`max-w-primary px-primary pt-4 pb-3 m-auto flex items-center ${

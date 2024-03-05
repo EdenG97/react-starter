@@ -24,6 +24,9 @@ export default {
       backgroundColor: {
         "primary-red": "red",
       },
+      height: {
+        spacing: "1rem",
+      },
       textColor: {
         primary: "red",
         secondary: "rgb(222 219 219)",

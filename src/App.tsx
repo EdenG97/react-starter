@@ -7,11 +7,12 @@ import Notification from "./components/notification";
 
 function App() {
   const [screen, setScreen] = useState<Screen>(Screen.HOME);
+  const isHomeScreen = screen === Screen.HOME;
 
   return (
     <>
-      <Header dispatchChangeScreen={setScreen} activeScreen={screen} />
-      {screen === Screen.HOME ? (
+      <Header dispatchChangeScreen={setScreen} homeScreen={isHomeScreen} />
+      {isHomeScreen ? (
         <>
           <Content />
           <BottomNavigationBar />

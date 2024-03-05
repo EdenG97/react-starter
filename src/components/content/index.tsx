@@ -7,13 +7,13 @@ function Content() {
   return (
     <main className="max-w-primary px-primary m-auto mb-24">
       <ContentCard />
-      <div className="h-4"></div>
+      <div className="h-spacing"></div>
       <ContentActivity />
-      <div className="h-4"></div>
+      <div className="h-spacing"></div>
       <ContentNews />
-      <div className="h-4"></div>
+      <div className="h-spacing"></div>
       <ContentOnlineList />
-      <div className="h-4"></div>
+      <div className="h-spacing"></div>
     </main>
   );
 }
