@@ -6,7 +6,7 @@ import {
   MEMBER_PRICE,
   NAME,
   POSITION,
-} from "../constants";
+} from "./constants";
 
 export const DUMMY_ONLINE_LIST = [
   {

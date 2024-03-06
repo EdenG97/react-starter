@@ -1,5 +1,5 @@
 import { WELCOME_TEXT } from "../constants";
-import { DUMMY_CARD_INFO } from "./data";
+import { DUMMY_CARD_INFO } from "../data";
 
 function ContentCard() {
   return (

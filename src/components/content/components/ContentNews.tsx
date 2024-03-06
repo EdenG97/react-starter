@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { PCS_NEWS } from "../constants";
-import { DUMMY_NEWS } from "./data";
+import { DUMMY_NEWS } from "../data";
 
 function ContentNews() {
   const [activeNews, setActiveNews] = useState(1);
@@ -28,7 +28,7 @@ function ContentNews() {
         {DUMMY_NEWS.map((item) => (
           <div
             key={item.id}
-            className={`p-2 border rounded-lg shadow-md flex flex-col gap-2  min-w-96 sm:text-sm sm:min-w-80 xsm:!min-w-full 
+            className={`p-2 border rounded-lg shadow-md flex flex-col gap-2 min-w-96 sm:text-sm sm:min-w-80 xsm:!min-w-full 
             ${getCardAnimationStyle(item.id)} ${getCardPositionStyle()}`}
           >
             <div className="flex gap-4 w-full">

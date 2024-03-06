@@ -16,3 +16,4 @@ export const DATE_OPTIONS: Intl.DateTimeFormatOptions = {
   month: "short",
   year: "numeric",
 };
+export const ONLINE = "Online";

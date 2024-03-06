@@ -42,7 +42,7 @@ function BottomNavigationBar() {
         <li>
           <button
             onClick={() => BottomTab.CHECKOUT}
-            className="flex flex-col items-center text-primary relative font-semibold xsm:text-xs text-nowrap"
+            className="flex flex-col items-center text-primary relative font-semibold xsm:text-xs"
           >
             <div className="h-14 w-14 bg-primary-red rounded-full flex items-center justify-center absolute -top-14">
               <ImExit color="white" size="22" />

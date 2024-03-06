@@ -2,7 +2,7 @@ import { DUMMY_NOTIFICATION_DATA } from "./data";
 
 function Notification() {
   return (
-    <ul className="max-w-primary m-auto">
+    <ul className="max-w-primary m-auto pt-14">
       {DUMMY_NOTIFICATION_DATA.map((notification) => (
         <li
           key={notification.id}
